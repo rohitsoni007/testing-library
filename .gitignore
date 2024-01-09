@@ -1,0 +1,16 @@
+
+node_modules
+package-lock.json
+yarn.lock
+backend/public/images/*
+
+npm-debug.log
+yarn-error.log
+
+
+build/
+/.pnp
+.pnp.js
+dist/
+.cache/
+
