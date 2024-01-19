@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "dev": "DEBUG=testing-library-api:* node --watch ./bin/www",
-    "test": "mocha --reporter spec --watch"
+    "test": "mocha --reporter spec --watch",
+    "jest": "jest"
   },
   "dependencies": {
     "axios": "^1.6.2",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "chai": "^4.3.10",
+    "jest": "^29.7.0",
     "mocha": "^10.2.0"
   }
 }
